@@ -1,0 +1,41 @@
+body {
+    background-color: #4F4789;
+    height: 2000px;
+    margin: 0px;
+}
+
+.navigation-bar {
+    background-color: #111D4A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.about-me {
+    background-color: #1E1E24;
+    height: 30%;
+    margin: 40px 40px;
+}
+
+.logo {
+    width: 60px;
+    margin: 8px 40px;
+    cursor: pointer;
+}
+
+.about-me-button, .projects-button, .contact-me-button {
+    border: none;
+    background-color: #111D4A;
+    color: #FFB400;
+    cursor: pointer;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 30px;
+    transition: font-weight 0.3s;
+}
+
+.about-me-button:hover, .projects-button:hover, .contact-me-button:hover {
+    font-weight: 700;
+}
