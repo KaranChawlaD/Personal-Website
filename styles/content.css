@@ -1,0 +1,60 @@
+.introduction {
+    height: 700px;
+    margin: 40px 100px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.introduction-salutation, .introduction-description {
+    font-weight: 700;
+    font-family: Roboto, Arial;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.introduction-salutation-name {
+    color: #00A5CF;
+}
+
+.introduction-description-career {
+    color: #F6511D;
+}
+
+.about-me, .projects, .contact-me {
+    background-color: #2C548B;
+    height: 600px;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.about-me-title {
+    color: #1E1E24;
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about-me-text {
+    color: #EDF6F9;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    margin: 0px 50px
+}
+
+.about-me-photo-background {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+    background-color: #5F5894;
+    padding: 20px;
+}
+
+.about-me-photo {
+    width: 100%;
+}

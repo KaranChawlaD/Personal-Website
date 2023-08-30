@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KaranChawlaD</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/navigation-bar.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,24 +18,57 @@
 
 <body>
     <nav class="navigation-bar">
-        <img class="logo" src="images/baby-yoda.jpg">
+        <img onclick="scrollToTop()" class="logo" src="images/baby-yoda.jpg">
 
         <div class="navigation-buttons">
-            <button class="about-me-button">
+            <button onclick="scrollAboutMe()" class="about-me-button">
                 About Me
             </button>
-            <button class="projects-button">
+            <button onclick="scrollProjects()" class="projects-button">
                 Projects
             </button>
-            <button class="contact-me-button">
+            <button onclick="scrollContactMe()" class="contact-me-button">
                 Contact Me
             </button>
         </div>
     </nav>
 
-    <div class="about-me">
-        
+    <div class="introduction">
+        <span class="introduction-salutation"> Hey there, I'm <span class="introduction-salutation-name">Karan Chawla!</span></span>
+        <span class="introduction-description"> Aspiring <span class="introduction-description-career">Mechatronics Engineer</span></span>
     </div>
+
+    <div class="about-me">
+        <div class="about-me-text">
+            <span class="about-me-title">About Me</span>
+            About me text goes here. About me text goes here.About me text goes here.About me text goes here.About me
+            text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.About me text goes here.About
+            me text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.About me text goes here.About
+            me text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.About me text goes here.About
+            me text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.About me text goes here.About
+            me text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.About me text goes here.About
+            me text goes here.About me text goes here.About me text goes here.About me text goes here.About me text goes
+            here.About me text goes here.About me text goes here.About me text goes here.
+        </div>
+        <div class="about-me-photo-background">
+            <img class="about-me-photo" src="images/about-me-photo.jpeg">
+        </div>
+    </div>
+
+    <div class="projects">
+
+    </div>
+
+    <div class="contact-me">
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
