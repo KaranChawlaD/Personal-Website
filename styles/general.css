@@ -4,7 +4,19 @@ html {
 
 body {
 	background-color: #1E1E24;
-	height: 4000px;
+	height: 3200px;
 	margin: 0px;
 	padding-top: 100px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+h5, h6 {
+	color: white;
+	font-family: Roboto, Arial;
+	font-size: 15px;
+	margin: 0;
 }

@@ -3,13 +3,13 @@ function scrollToTop() {
 }
 
 function scrollAboutMe() {
-	window.scrollTo({ top: 900, behavior: 'smooth' });
+	window.scrollTo({ top: 860, behavior: 'smooth' });
 }
 
 function scrollProjects() {
-	window.scrollTo({ top: 1600, behavior: 'smooth' });
+	window.scrollTo({ top: 1660, behavior: 'smooth' });
 }
 
 function scrollContactMe() {
-	window.scrollTo({ top: 2300, behavior: 'smooth' });
+	window.scrollTo({ top: 2460, behavior: 'smooth' });
 }

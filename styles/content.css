@@ -50,6 +50,10 @@
 	margin: 0px 50px
 }
 
+.about-me p{
+	margin: 40px 0px;
+}
+
 .about-me-photo-background {
 	display: flex;
 	justify-content: center;
