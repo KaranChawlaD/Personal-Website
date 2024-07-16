@@ -585,6 +585,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
 .me-4 {
   margin-inline-end: 1rem;
 }
@@ -605,16 +609,8 @@ video {
   margin-top: 1rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-64 {
-  margin-bottom: 16rem;
-}
-
-.mb-48 {
-  margin-bottom: 12rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -649,16 +645,12 @@ video {
   height: 275px;
 }
 
-.h-\[40px\] {
-  height: 40px;
-}
-
-.h-\[80px\] {
-  height: 80px;
-}
-
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-\[40px\] {
+  height: 40px;
 }
 
 .w-10 {
@@ -677,6 +669,10 @@ video {
   width: 400px;
 }
 
+.w-\[60px\] {
+  width: 60px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -685,12 +681,16 @@ video {
   width: 40px;
 }
 
-.w-\[80px\] {
-  width: 80px;
+.max-w-2xl {
+  max-width: 42rem;
 }
 
-.w-\[60px\] {
-  width: 60px;
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-screen-xl {
@@ -775,18 +775,8 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.from-sky-100 {
-  --tw-gradient-from: #e0f2fe var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(224 242 254 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-sky-50 {
@@ -817,10 +807,6 @@ video {
 
 .to-sky-800 {
   --tw-gradient-to: #075985 var(--tw-gradient-to-position);
-}
-
-.to-sky-900 {
-  --tw-gradient-to: #0c4a6e var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
@@ -873,11 +859,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-base {
@@ -1111,12 +1092,20 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
@@ -1137,6 +1126,11 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
